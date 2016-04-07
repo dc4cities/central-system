@@ -1,0 +1,26 @@
+MODEL
+------
+- automaton generation
+    + automaton for fix, migratable, spreadable activity
+    - correct initial state
+    - multiple states per working mode
+- costs
+    + cumulative performance
+    + cumulative energy
+    + transition penalty
+- SLA
+    + hard cumulative performance
+    - soft cumulative performance, price based
+    - soft instantaneous, price based
+- POWER
+    + multiple source
+    + hard power capping
+    + power/price
+- EMA
+    + Ren PCT
+- POWER BUDGET
+
+- OBJECTIVE
+    + minimize energy price
+    - minimize TCO (energy price + penalties)
+- past completion

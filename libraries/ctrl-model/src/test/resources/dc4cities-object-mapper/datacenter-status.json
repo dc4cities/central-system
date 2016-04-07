@@ -1,0 +1,29 @@
+{
+	"dataCenterName": "hp_milan",
+	"dateFrom": "2016-01-29T00:00:00",
+	"dateTo": "2016-01-30T00:00:00",
+	"timeSlotDuration": "15 min",
+	"alerts": [{
+		"startTimeSlot": 0,
+		"endTimeSlot": 1,
+		"type": "renpct",
+		"severity": "alarm",
+		"message": "renPercent objective: 70 - timeslot value: 38"
+	}, {
+		"startTimeSlot": 49,
+		"endTimeSlot": 50,
+		"type": "bizperf",
+		"severity": "alarm",
+		"eascName": "easc_hp",
+		"activityName": "website",
+		"message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+	}, {
+		"startTimeSlot": 0,
+		"endTimeSlot": 96,
+		"type": "bizperf",
+		"severity": "warning",
+		"eascName": "easc_hp",
+		"activityName": "indexing_global",
+		"message": "Total BizPerf: 32.31 kPage, Cumulative SLO: 40.25 kPage"
+	}]
+}

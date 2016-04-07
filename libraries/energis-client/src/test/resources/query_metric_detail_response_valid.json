@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "name": "MT1",
+    "aggregation": "sum",
+    "medium": "unknown",
+    "defaultLabel": "metric 1",
+    "scaleFactor": 1.0,
+    "unit": "W",
+    "reference": "ACTUAL",
+    "assetType": "server",
+    "equations": [{
+            "formula": "X1 + X2",
+            "inputs": [{
+                    "variableName": "X1",
+                    "metricName": "MT1.1"
+                },
+                {
+                    "variableName": "X2",
+                    "metricName": "MT1.2"
+                }
+            ]
+        }]
+}

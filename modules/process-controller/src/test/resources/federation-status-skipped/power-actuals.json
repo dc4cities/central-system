@@ -1,0 +1,13 @@
+[ {
+  "dataCenterName" : "dc1",
+  "dateFrom" : "2015-09-01T00:00:00",
+  "dateTo" : "2015-09-01T00:45:00",
+  "timeSlotDuration" : "15 min",
+  "powerValues" : [ {
+    "timeSlot" : 0,
+    "power" : "470 W"
+  }, {
+    "timeSlot" : 2,
+    "power" : "600 W"
+  } ]
+} ]

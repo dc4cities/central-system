@@ -1,0 +1,65 @@
+{
+  "id" : "aae0658f-d6ea-4ca0-9414-da43bc5ae018",
+  "creationDate" : "2015-06-29T10:00:00",
+  "lastModified" : "2015-06-29T10:00:10",
+  "goals" : [ {
+    "id" : "5a4badf5-5b13-4eda-bfac-23d1a3b7a1cb",
+    "name" : "some goal",
+    "description" : "some goal description",
+    "creationDate" : "2015-06-29T10:00:00",
+    "lastModified" : "2015-06-29T10:00:10",
+    "objectives" : [ {
+      "id" : "30f38b86-4892-4309-bc84-549e421dba25",
+      "name" : "baseline",
+      "description" : "infinite baseline objective",
+      "creationDate" : "2015-06-29T10:00:00",
+      "lastModified" : "2015-06-29T10:00:10",
+      "type" : "POWER",
+      "implementationType" : "MUST",
+      "enabled" : true,
+      "dataCenterId" : "datacenter_0",
+      "priority" : 0,
+      "target" : {
+        "metric" : "SOME.AWESOME.METRIC",
+        "operator" : "gt",
+        "value" : 0.8
+      },
+      "timeFrame" : {
+        "startDate" : 0,
+        "recurrentExpression" : null,
+        "duration" : null
+      },
+      "priceModifiers" : [ {
+        "threshold" : "100 %",
+        "modifier" : "-1 EUR/pp"
+      }, {
+        "threshold" : "80 %",
+        "modifier" : "0 EUR/pp"
+      }, {
+        "threshold" : "75 %",
+        "modifier" : "1 EUR/pp"
+      } ]
+    }, {
+      "id" : "f8f27e2c-9d02-43a1-9803-4c25abab17ee",
+      "name" : "recurring sunday 3 hours",
+      "description" : "recurring objective",
+      "creationDate" : "2015-06-29T10:00:00",
+      "lastModified" : "2015-06-29T10:00:10",
+      "type" : "POWER",
+      "implementationType" : "MUST",
+      "enabled" : true,
+      "dataCenterId" : "datacenter_0",
+      "priority" : 0,
+      "target" : {
+        "metric" : "SOME.OTHER.AWESOME.METRIC",
+        "operator" : "le",
+        "value" : 0.3
+      },
+      "timeFrame" : {
+        "startDate" : null,
+        "recurrentExpression" : "0 0 0 ? * SUN",
+        "duration" : "PT3H"
+      }
+    } ]
+  } ]
+}

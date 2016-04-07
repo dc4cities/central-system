@@ -1,0 +1,584 @@
+{
+  "erdsName": "csuc_grid",
+  "dateFrom": "2015-02-01T00:00:00",
+  "dateTo": "2015-02-02T00:00:00",
+  "timeSlotDuration": "15 min",
+  "timeSlotForecasts": [
+    {
+      "timeSlot": 1,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "312 g/(kW·h)"
+    },
+    {
+      "timeSlot": 2,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "313 g/(kW·h)"
+    },
+    {
+      "timeSlot": 3,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "314 g/(kW·h)"
+    },
+    {
+      "timeSlot": 4,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "315 g/(kW·h)"
+    },
+    {
+      "timeSlot": 5,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "316 g/(kW·h)"
+    },
+    {
+      "timeSlot": 6,
+      "power": "450000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "317 g/(kW·h)"
+    },
+    {
+      "timeSlot": 7,
+      "power": "450000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "318 g/(kW·h)"
+    },
+    {
+      "timeSlot": 8,
+      "power": "450000 W",
+      "renewablePercentage": "34 %",
+      "co2Factor": "319 g/(kW·h)"
+    },
+    {
+      "timeSlot": 9,
+      "power": "450000 W",
+      "renewablePercentage": "34 %",
+      "co2Factor": "320 g/(kW·h)"
+    },
+    {
+      "timeSlot": 10,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "320 g/(kW·h)"
+    },
+    {
+      "timeSlot": 11,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "321 g/(kW·h)"
+    },
+    {
+      "timeSlot": 12,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "322 g/(kW·h)"
+    },
+    {
+      "timeSlot": 13,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "323 g/(kW·h)"
+    },
+    {
+      "timeSlot": 14,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "323 g/(kW·h)"
+    },
+    {
+      "timeSlot": 15,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "324 g/(kW·h)"
+    },
+    {
+      "timeSlot": 16,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "325 g/(kW·h)"
+    },
+    {
+      "timeSlot": 17,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "326 g/(kW·h)"
+    },
+    {
+      "timeSlot": 18,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "327 g/(kW·h)"
+    },
+    {
+      "timeSlot": 19,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "328 g/(kW·h)"
+    },
+    {
+      "timeSlot": 20,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "329 g/(kW·h)"
+    },
+    {
+      "timeSlot": 21,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "331 g/(kW·h)"
+    },
+    {
+      "timeSlot": 22,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "332 g/(kW·h)"
+    },
+    {
+      "timeSlot": 23,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "333 g/(kW·h)"
+    },
+    {
+      "timeSlot": 24,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "334 g/(kW·h)"
+    },
+    {
+      "timeSlot": 25,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "336 g/(kW·h)"
+    },
+    {
+      "timeSlot": 26,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "335 g/(kW·h)"
+    },
+    {
+      "timeSlot": 27,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "334 g/(kW·h)"
+    },
+    {
+      "timeSlot": 28,
+      "power": "450000 W",
+      "renewablePercentage": "32 %",
+      "co2Factor": "333 g/(kW·h)"
+    },
+    {
+      "timeSlot": 29,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "333 g/(kW·h)"
+    },
+    {
+      "timeSlot": 30,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "332 g/(kW·h)"
+    },
+    {
+      "timeSlot": 31,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "332 g/(kW·h)"
+    },
+    {
+      "timeSlot": 32,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "331 g/(kW·h)"
+    },
+    {
+      "timeSlot": 33,
+      "power": "450000 W",
+      "renewablePercentage": "34 %",
+      "co2Factor": "331 g/(kW·h)"
+    },
+    {
+      "timeSlot": 34,
+      "power": "450000 W",
+      "renewablePercentage": "34 %",
+      "co2Factor": "328 g/(kW·h)"
+    },
+    {
+      "timeSlot": 35,
+      "power": "450000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "325 g/(kW·h)"
+    },
+    {
+      "timeSlot": 36,
+      "power": "450000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "322 g/(kW·h)"
+    },
+    {
+      "timeSlot": 37,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "319 g/(kW·h)"
+    },
+    {
+      "timeSlot": 38,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "316 g/(kW·h)"
+    },
+    {
+      "timeSlot": 39,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "313 g/(kW·h)"
+    },
+    {
+      "timeSlot": 40,
+      "power": "450000 W",
+      "renewablePercentage": "38 %",
+      "co2Factor": "310 g/(kW·h)"
+    },
+    {
+      "timeSlot": 41,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "307 g/(kW·h)"
+    },
+    {
+      "timeSlot": 42,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "305 g/(kW·h)"
+    },
+    {
+      "timeSlot": 43,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "304 g/(kW·h)"
+    },
+    {
+      "timeSlot": 44,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "302 g/(kW·h)"
+    },
+    {
+      "timeSlot": 45,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "301 g/(kW·h)"
+    },
+    {
+      "timeSlot": 46,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "300 g/(kW·h)"
+    },
+    {
+      "timeSlot": 47,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "299 g/(kW·h)"
+    },
+    {
+      "timeSlot": 48,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 49,
+      "power": "450000 W",
+      "renewablePercentage": "41 %",
+      "co2Factor": "297 g/(kW·h)"
+    },
+    {
+      "timeSlot": 50,
+      "power": "450000 W",
+      "renewablePercentage": "41 %",
+      "co2Factor": "297 g/(kW·h)"
+    },
+    {
+      "timeSlot": 51,
+      "power": "450000 W",
+      "renewablePercentage": "41 %",
+      "co2Factor": "297 g/(kW·h)"
+    },
+    {
+      "timeSlot": 52,
+      "power": "450000 W",
+      "renewablePercentage": "41 %",
+      "co2Factor": "297 g/(kW·h)"
+    },
+    {
+      "timeSlot": 53,
+      "power": "450000 W",
+      "renewablePercentage": "41 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 54,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 55,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 56,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 57,
+      "power": "450000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 58,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "298 g/(kW·h)"
+    },
+    {
+      "timeSlot": 59,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "299 g/(kW·h)"
+    },
+    {
+      "timeSlot": 60,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "299 g/(kW·h)"
+    },
+    {
+      "timeSlot": 61,
+      "power": "450000 W",
+      "renewablePercentage": "39 %",
+      "co2Factor": "300 g/(kW·h)"
+    },
+    {
+      "timeSlot": 62,
+      "power": "450000 W",
+      "renewablePercentage": "38 %",
+      "co2Factor": "301 g/(kW·h)"
+    },
+    {
+      "timeSlot": 63,
+      "power": "450000 W",
+      "renewablePercentage": "38 %",
+      "co2Factor": "303 g/(kW·h)"
+    },
+    {
+      "timeSlot": 64,
+      "power": "450000 W",
+      "renewablePercentage": "38 %",
+      "co2Factor": "304 g/(kW·h)"
+    },
+    {
+      "timeSlot": 65,
+      "power": "450000 W",
+      "renewablePercentage": "38 %",
+      "co2Factor": "306 g/(kW·h)"
+    },
+    {
+      "timeSlot": 66,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "306 g/(kW·h)"
+    },
+    {
+      "timeSlot": 67,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "307 g/(kW·h)"
+    },
+    {
+      "timeSlot": 68,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "308 g/(kW·h)"
+    },
+    {
+      "timeSlot": 69,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "309 g/(kW·h)"
+    },
+    {
+      "timeSlot": 70,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "310 g/(kW·h)"
+    },
+    {
+      "timeSlot": 71,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "311 g/(kW·h)"
+    },
+    {
+      "timeSlot": 72,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "312 g/(kW·h)"
+    },
+    {
+      "timeSlot": 73,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "313 g/(kW·h)"
+    },
+    {
+      "timeSlot": 74,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "313 g/(kW·h)"
+    },
+    {
+      "timeSlot": 75,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "314 g/(kW·h)"
+    },
+    {
+      "timeSlot": 76,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "315 g/(kW·h)"
+    },
+    {
+      "timeSlot": 77,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "316 g/(kW·h)"
+    },
+    {
+      "timeSlot": 78,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "315 g/(kW·h)"
+    },
+    {
+      "timeSlot": 79,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "315 g/(kW·h)"
+    },
+    {
+      "timeSlot": 80,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "315 g/(kW·h)"
+    },
+    {
+      "timeSlot": 81,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "315 g/(kW·h)"
+    },
+    {
+      "timeSlot": 82,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "314 g/(kW·h)"
+    },
+    {
+      "timeSlot": 83,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "313 g/(kW·h)"
+    },
+    {
+      "timeSlot": 84,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "312 g/(kW·h)"
+    },
+    {
+      "timeSlot": 85,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "311 g/(kW·h)"
+    },
+    {
+      "timeSlot": 86,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "310 g/(kW·h)"
+    },
+    {
+      "timeSlot": 87,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "310 g/(kW·h)"
+    },
+    {
+      "timeSlot": 88,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "309 g/(kW·h)"
+    },
+    {
+      "timeSlot": 89,
+      "power": "450000 W",
+      "renewablePercentage": "37 %",
+      "co2Factor": "309 g/(kW·h)"
+    },
+    {
+      "timeSlot": 90,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "309 g/(kW·h)"
+    },
+    {
+      "timeSlot": 91,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "310 g/(kW·h)"
+    },
+    {
+      "timeSlot": 92,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "311 g/(kW·h)"
+    },
+    {
+      "timeSlot": 93,
+      "power": "450000 W",
+      "renewablePercentage": "36 %",
+      "co2Factor": "312 g/(kW·h)"
+    },
+    {
+      "timeSlot": 94,
+      "power": "450000 W",
+      "renewablePercentage": "34 %",
+      "co2Factor": "327 g/(kW·h)"
+    },
+    {
+      "timeSlot": 95,
+      "power": "450000 W",
+      "renewablePercentage": "33 %",
+      "co2Factor": "342 g/(kW·h)"
+    },
+    {
+      "timeSlot": 96,
+      "power": "450000 W",
+      "renewablePercentage": "31 %",
+      "co2Factor": "357 g/(kW·h)"
+    }
+  ]
+}

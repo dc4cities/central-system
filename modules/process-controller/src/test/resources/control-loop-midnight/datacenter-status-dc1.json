@@ -1,0 +1,51 @@
+{
+	"dataCenterName": "dc1",
+	"dateFrom": "2015-07-15T00:00:00",
+	"dateTo": "2015-07-15T00:30:00",
+	"timeSlotDuration": "15 min",
+	"alerts": [{
+		"startTimeSlot": 0,
+		"endTimeSlot": 1,
+		"type": "renpct",
+		"severity": "alarm",
+		"message": "renPercent objective: 70 - timeslot value: 38"
+	}, {
+		"startTimeSlot": 0,
+		"endTimeSlot": 1,
+		"type": "bizperf",
+		"severity": "alarm",
+		"eascName": "easc1",
+		"activityName": "Activity 1",
+		"message": "Actual BizPerf: 1800 Req/s, Instant SLO: 2300 Req/s"
+	}, {
+		"startTimeSlot": 1,
+		"endTimeSlot": 2,
+		"type": "renpct",
+		"severity": "alarm",
+		"message": "renPercent objective: 70 - timeslot value: 40"
+	}, {
+		"startTimeSlot": 1,
+		"endTimeSlot": 2,
+		"type": "bizperf",
+		"severity": "alarm",
+		"eascName": "easc1",
+		"activityName": "Activity 1",
+		"message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+	}, {
+		"startTimeSlot": 1,
+		"endTimeSlot": 2,
+		"type": "bizperf",
+		"severity": "alarm",
+		"eascName": "easc2",
+		"activityName": "Activity 2",
+		"message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+	}, {
+		"startTimeSlot": 0,
+		"endTimeSlot": 2,
+		"type": "bizperf",
+		"severity": "warning",
+		"eascName": "easc2",
+		"activityName": "Activity 3",
+		"message": "Total BizPerf: 32.31 kPage, Cumulative SLO: 40.25 kPage"
+	}]
+}

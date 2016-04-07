@@ -1,0 +1,21 @@
+{
+	"dataCenterName": "dc2",
+	"dateFrom": "2015-07-15T00:00:00",
+	"dateTo": "2015-07-15T00:30:00",
+	"timeSlotDuration": "15 min",
+	"alerts": [{
+		"startTimeSlot": 0,
+		"endTimeSlot": 1,
+		"type": "bizperf",
+		"severity": "alarm",
+		"eascName": "easc1",
+		"activityName": "Activity 1",
+		"message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+	}, {
+		"startTimeSlot": 1,
+		"endTimeSlot": 2,
+		"type": "renpct",
+		"severity": "warning",
+		"message": "renPercent objective: 70 - timeslot value: 65"
+	}]
+}

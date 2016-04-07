@@ -1,0 +1,56 @@
+﻿{
+    "erdsName": "erds1",
+    "dateFrom": "2014-07-02T10:00:00",
+    "dateTo": "2014-07-02T12:00:00",
+    "timeSlotDuration": "15 min",
+    "timeSlotForecasts": [
+        {
+            "timeSlot": 1,
+            "power": "1522 W",
+            "renewablePercentage": "32 %",
+            "co2Factor": "202 g/(kW·h)"
+        },
+        {
+            "timeSlot": 2,
+            "power": "1632 W",
+            "renewablePercentage": "42 %",
+            "co2Factor": "212 g/(kW·h)"
+        },
+        {
+            "timeSlot": 3,
+            "power": "1220 W",
+            "renewablePercentage": "30 %",
+            "co2Factor": "215 g/(kW·h)"
+        },
+        {
+            "timeSlot": 4,
+            "power": "1015 W",
+            "renewablePercentage": "20 %",
+            "co2Factor": "100 g/(kW·h)"
+        },
+        {
+            "timeSlot": 5,
+            "power": "1330 W",
+            "renewablePercentage": "20 %",
+            "co2Factor": "200 g/(kW·h)"
+        },
+        {
+            "timeSlot": 6,
+            "power": "1435 W",
+            "renewablePercentage": "40 %",
+            "co2Factor": "100 g/(kW·h)"
+        },
+        {
+            "timeSlot": 7,
+            "power": "1640 W",
+            "renewablePercentage": "50 %",
+            "co2Factor": "50 g/(kW·h)"
+        },
+        {
+            "timeSlot": 8,
+            "power": "1737 W",
+            "renewablePercentage": "45 %",
+            "co2Factor": "100 g/(kW·h)"
+        }
+    ]
+}

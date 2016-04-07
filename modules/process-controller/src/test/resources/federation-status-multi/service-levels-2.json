@@ -1,0 +1,42 @@
+[ {
+  "eascName" : "easc1",
+  "activityServiceLevels" : [ {
+    "activityName" : "activity1",
+    "serviceLevels" : [ {
+      "dateFrom" : "2015-09-01T00:00:00",
+      "dateTo" : "2015-09-01T00:15:00",
+      "instantBusinessPerformance" : "2.7 Gbit/min",
+      "cumulativeBusinessPerformance" : "40.5 Gbit"
+    }, {
+      "dateFrom" : "2015-09-01T00:15:00",
+      "dateTo" : "2015-09-01T00:30:00",
+      "instantBusinessPerformance" : "1.47 Gbit/min",
+      "cumulativeBusinessPerformance" : "62.5 Gbit"
+    } ]
+  }, {
+    "activityName" : "activity2",
+    "serviceLevels" : [ {
+      "dateFrom" : "2015-09-01T00:00:00",
+      "dateTo" : "2015-09-01T00:15:00",
+      "instantBusinessPerformance" : "2 Gbit/min"
+    }, {
+      "dateFrom" : "2015-09-01T00:15:00",
+      "dateTo" : "2015-09-01T00:30:00",
+      "instantBusinessPerformance" : "0 Gbit/min"
+    } ]
+  } ]
+}, {
+  "eascName" : "easc2",
+  "activityServiceLevels" : [ {
+    "activityName" : "activity1",
+    "serviceLevels" : [ {
+      "dateFrom" : "2015-09-01T00:00:00",
+      "dateTo" : "2015-09-01T00:15:00",
+      "cumulativeBusinessPerformance" : "8 Gbit"
+    }, {
+      "dateFrom" : "2015-09-01T00:15:00",
+      "dateTo" : "2015-09-01T00:30:00",
+      "cumulativeBusinessPerformance" : "9.55 Gbit"
+    } ]
+  } ]
+} ]

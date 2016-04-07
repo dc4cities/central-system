@@ -1,0 +1,42 @@
+[ {
+  "eascName" : "easc1",
+  "activities" : [ {
+    "name" : "activity1",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "workingModeName" : "WM2",
+      "workingModeValue" : 2,
+      "instantBusinessPerformance" : "1.5 Gbit/min",
+      "cumulativeBusinessPerformance" : "22.5 Gbit",
+      "power" : "700 W"
+    }, {
+      "dataCenterName" : "dc2",
+      "workingModeName" : "WM0",
+      "workingModeValue" : 0,
+      "instantBusinessPerformance" : "0 Gbit/min",
+      "cumulativeBusinessPerformance" : "25.5 Gbit",
+      "power" : "10 W"
+    } ]
+  }, {
+    "name" : "activity2",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "workingModeName" : "WM0",
+      "workingModeValue" : 0,
+      "instantBusinessPerformance" : "0 Gbit/min",
+      "power" : "10 W"
+    } ]
+  } ]
+}, {
+  "eascName" : "easc2",
+  "activities" : [ {
+    "name" : "activity1",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc2",
+      "workingModeName" : "WM1",
+      "workingModeValue" : 1,
+      "cumulativeBusinessPerformance" : "8.5 Gbit",
+      "power" : "75 W"
+    } ]
+  } ]
+} ]

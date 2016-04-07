@@ -1,0 +1,31 @@
+{
+  "eascName" : "easc1",
+  "activities" : [ {
+    "name" : "Activity 1",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "workingModeName" : "VTWM5",
+      "workingModeValue" : 5,
+      "instantBusinessPerformance" : "1.1 Gbit/min",
+      "cumulativeBusinessPerformance" : "10 Gbit",
+      "power" : "470 W"
+    }, {
+      "dataCenterName" : "dc2",
+      "workingModeName" : "VTWM1",
+      "workingModeValue" : 1,
+      "instantBusinessPerformance" : "0.3 Gbit/min",
+      "cumulativeBusinessPerformance" : "3 Gbit",
+      "power" : "190 W"
+    } ]
+  }, {
+    "name" : "Activity 2",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "workingModeName" : "VTWM2",
+      "workingModeValue" : 2,
+      "instantBusinessPerformance" : "0.6 Gbit/min",
+      "cumulativeBusinessPerformance" : "1 Gbit",
+      "power" : "300 W"
+    } ]
+  } ]
+}

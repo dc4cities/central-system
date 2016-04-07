@@ -1,0 +1,13 @@
+{
+  "dateFrom" : "2015-05-10T00:00:00",
+  "dateTo" : "2015-05-10T01:00:00",
+  "instantBusinessObjective" : "10 Gbit/s",
+  "basePrice" : "100 EUR",
+  "priceModifiers" : [ {
+    "threshold" : "20 Gbit/s",
+    "modifier" : "1 EUR/Gbit"
+  }, {
+    "threshold" : "10 Gbit/s",
+    "modifier" : "-1 EUR/Gbit"
+  } ]
+}

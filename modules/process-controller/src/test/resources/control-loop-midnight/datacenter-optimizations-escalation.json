@@ -1,0 +1,144 @@
+[ {
+  "dataCenterName" : "dc1",
+  "executionPlan" : {
+    "dataCenterName" : "dc1",
+    "idealPowerPlan" : {
+      "dateFrom" : "2015-07-15T00:00:00",
+      "dateTo" : "2015-07-15T00:30:00",
+      "timeSlotDuration" : "15 min",
+      "powerQuotas" : [ {
+        "timeSlot" : 0,
+        "power" : "1300 W"
+      }, {
+        "timeSlot" : 1,
+        "power" : "1400 W"
+      } ]
+    },
+    "consolidatedPowerPlan" : {
+      "dateFrom" : "2015-07-15T00:00:00",
+      "dateTo" : "2015-07-15T00:30:00",
+      "timeSlotDuration" : "15 min",
+      "powerQuotas" : [ {
+        "timeSlot" : 0,
+        "power" : "1253 W"
+      }, {
+        "timeSlot" : 1,
+        "power" : "1305 W"
+      } ]
+    }
+  },
+  "status" : {
+    "dataCenterName": "dc1",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T00:30:00",
+    "timeSlotDuration": "15 min",
+    "alerts": [{
+      "startTimeSlot": 0,
+      "endTimeSlot": 1,
+      "type": "renpct",
+      "severity": "alarm",
+      "message": "renPercent objective: 70 - timeslot value: 38"
+    }, {
+      "startTimeSlot": 1,
+      "endTimeSlot": 2,
+      "type": "renpct",
+      "severity": "alarm",
+      "message": "renPercent objective: 70 - timeslot value: 40"
+    }],
+    "eascs": [{
+      "eascName": "easc1",
+      "activities": [{
+        "activityName": "Activity 1",
+        "alerts": [{
+          "startTimeSlot": 0,
+          "endTimeSlot": 1,
+          "type": "bizperf",
+          "severity": "alarm",
+          "message": "Actual BizPerf: 1800 Req/s, Instant SLO: 2300 Req/s"
+        }, {
+          "startTimeSlot": 1,
+          "endTimeSlot": 2,
+          "type": "bizperf",
+          "severity": "alarm",
+          "message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+        }]
+      }]
+    }, {
+      "eascName": "easc2",
+      "activities": [{
+        "activityName": "Activity 2",
+        "alerts": [{
+          "startTimeSlot": 1,
+          "endTimeSlot": 2,
+          "type": "bizperf",
+          "severity": "alarm",
+          "message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+        }]
+      }, {
+        "activityName": "Activity 3",
+        "alerts": [{
+          "startTimeSlot": 0,
+          "endTimeSlot": 2,
+          "type": "bizperf",
+          "severity": "warning",
+          "message": "Total BizPerf: 32.31 kPage, Cumulative SLO: 40.25 kPage"
+        }]
+      }]
+    }]
+  }
+}, {
+  "dataCenterName" : "dc2",
+  "executionPlan" : {
+    "dataCenterName" : "dc2",
+    "idealPowerPlan" : {
+      "dateFrom" : "2015-07-15T00:00:00",
+      "dateTo" : "2015-07-15T00:30:00",
+      "timeSlotDuration" : "15 min",
+      "powerQuotas" : [ {
+        "timeSlot" : 0,
+        "power" : "600 W"
+      }, {
+        "timeSlot" : 1,
+        "power" : "700 W"
+      } ]
+    },
+    "consolidatedPowerPlan" : {
+      "dateFrom" : "2015-07-15T00:00:00",
+      "dateTo" : "2015-07-15T00:30:00",
+      "timeSlotDuration" : "15 min",
+      "powerQuotas" : [ {
+        "timeSlot" : 0,
+        "power" : "600 W"
+      }, {
+        "timeSlot" : 1,
+        "power" : "600 W"
+      } ]
+    }
+  },
+  "status" : {
+    "dataCenterName": "dc2",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T00:30:00",
+    "timeSlotDuration": "15 min",
+    "alerts": [{
+      "startTimeSlot": 1,
+      "endTimeSlot": 2,
+      "type": "renpct",
+      "severity": "warning",
+      "message": "renPercent objective: 70 - timeslot value: 65"
+    }],
+    "eascs": [{
+      "eascName": "easc1",
+      "activities": [{
+        "activityName": "Activity 1",
+        "alerts": [{
+          "startTimeSlot": 0,
+          "endTimeSlot": 1,
+          "type": "bizperf",
+          "severity": "alarm",
+          "message": "Actual BizPerf: 2000 Req/s, Instant SLO: 2500 Req/s"
+        }]
+      }]
+    }]
+  }
+} ]

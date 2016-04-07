@@ -1,0 +1,7 @@
+{
+    "metrics": [
+        {"name":"MT1","reference":"actual"},
+        {"name":"MT2","reference":"forecasted"},
+        {"name":"MT3","reference":"actual"}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "erdsName": "hp.grid",
+  "dateFrom": "2014-03-05T10:00:00",
+  "dateTo": "2014-03-05T10:30:00",
+  "timeSlotDuration": "15 min",
+  "timeSlotForecasts": [
+    {
+      "timeSlot": 1,
+      "power": "20 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    },
+	{
+      "timeSlot": 2,
+      "power": "30 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "210 kg/kWh",
+      "primaryEnergyFactor" : 0.7,
+      "consumptionPrice" : "0.2 EUR/kWh"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "processConfigList": [
+        {
+            "dataCenterId": "hp_milan",
+            "timeSlotWidth": 15,
+            "timeWindowWidth": 24,
+            "executionSchedule": 0,
+            "timeCompressionFactor": 1,
+            "processClass": "org.dc4cities.tech.MyClass",
+			"minPower": 1000,
+			"maxSuboptimalPower": 10000,
+			"pue": 1.5,
+            "erdsRegistryItems": [
+                {
+                    "id": "hp_solar_1",
+                    "name": "hp_milan",
+                    "urlEndpoint": "http://dc4cities.inria.fr:8080/dc4es-service",
+                    "type": "solar",
+                    "assetName": "asset_hp_solar",
+                    "status": true
+                }
+            ],
+            "eascRegistryItems": [
+                {
+                    "id": "hp_cloud",
+                    "name": "defaultName",
+                    "itServiceName": "iaas_cloud",
+                    "type": "iaas",
+                    "urlEndpoint": "http://localhost:9999",
+                    "assetName": "asset_iaas_hp_cloud",
+                    "status": true,
+                    "weight": 1,
+                    "greenPoints": 30
+                }
+            ]
+        }
+    ]
+}

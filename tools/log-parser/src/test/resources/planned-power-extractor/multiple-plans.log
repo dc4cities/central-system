@@ -1,0 +1,141 @@
+2014-11-07 10:48:00,152 DEBUG [OptimizationProcess] Starting optimization process with parameters:
+timeRange = {
+  "dateFrom" : "2014-07-02T10:00:00",
+  "dateTo" : "2014-07-02T12:00:00",
+  "timeSlotDuration" : "15 min"
+}
+config = omitted
+currentPowerPlan = null
+2014-11-07 10:48:00,152 DEBUG [OptimizationProcess] Requesting energy forecasts...
+2014-11-07 10:48:01,182 DEBUG [OptimizationProcess] Got energy forecasts: [{
+  "erdsName" : "test_grid",
+  "dateFrom" : "2014-07-02T10:00:00",
+  "dateTo" : "2014-07-02T12:00:00",
+  "timeSlotDuration" : "15 min",
+  "timeSlotForecasts" : [ {
+    "timeSlot" : 1,
+    "power" : "450000 W",
+    "renewablePercentage" : "50 %",
+    "carbonEmissions" : "146 g/(kW·h)"
+  }, {
+    "timeSlot" : 2,
+    "power" : "450000 W",
+    "renewablePercentage" : "49 %",
+    "carbonEmissions" : "149 g/(kW·h)"
+  }, {
+    "timeSlot" : 3,
+    "power" : "450000 W",
+    "renewablePercentage" : "49 %",
+    "carbonEmissions" : "149 g/(kW·h)"
+  }, {
+    "timeSlot" : 4,
+    "power" : "450000 W",
+    "renewablePercentage" : "49 %",
+    "carbonEmissions" : "149 g/(kW·h)"
+  }, {
+    "timeSlot" : 5,
+    "power" : "450000 W",
+    "renewablePercentage" : "49 %",
+    "carbonEmissions" : "149 g/(kW·h)"
+  }, {
+    "timeSlot" : 6,
+    "power" : "450000 W",
+    "renewablePercentage" : "48 %",
+    "carbonEmissions" : "150 g/(kW·h)"
+  }, {
+    "timeSlot" : 7,
+    "power" : "450000 W",
+    "renewablePercentage" : "48 %",
+    "carbonEmissions" : "152 g/(kW·h)"
+  }, {
+    "timeSlot" : 8,
+    "power" : "450000 W",
+    "renewablePercentage" : "48 %",
+    "carbonEmissions" : "154 g/(kW·h)"
+  } ]
+}]
+2014-11-07 10:48:01,182 DEBUG [OptimizationProcess] [Intermediate steps omitted here...]
+2014-11-07 10:48:04,121 DEBUG [OptimizationProcess] Selected activity plans: [{
+  "eascName" : "EASC-TEST",
+  "dateFrom" : "2014-07-02T10:00:00",
+  "dateTo" : "2014-07-02T12:00:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "Activity1",
+    "works" : [ {
+      "startTimeSlot" : 1,
+      "endTimeSlot" : 2,
+      "workingMode" : "W1D1",
+      "power" : "100 W",
+      "greenPoints" : 1
+    }, {
+      "startTimeSlot" : 3,
+      "endTimeSlot" : 6,
+      "workingMode" : "W2D1",
+      "power" : "150 W",
+      "greenPoints" : 2
+    }, {
+      "startTimeSlot" : 8,
+      "endTimeSlot" : 8,
+      "workingMode" : "W2D1",
+      "power" : "150 W",
+      "greenPoints" : 2
+    } ]
+  }, {
+    "name" : "Activity2",
+    "works" : [ {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 6,
+      "workingMode" : "WeeklyLongRun",
+      "power" : "80 W",
+      "greenPoints" : 1
+    } ]
+  } ]
+}]
+2014-11-07 10:48:01,182 DEBUG [OptimizationProcess] [Other intermediate steps here...]
+2014-11-07 11:00:00,000 DEBUG [OptimizationProcess] Selected activity plans: [{
+  "eascName" : "EASC-TEST",
+  "dateFrom" : "2014-07-02T10:15:00",
+  "dateTo" : "2014-07-02T12:15:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "Activity1",
+    "works" : [ {
+      "startTimeSlot" : 1,
+      "endTimeSlot" : 1,
+      "workingMode" : "W1D1",
+      "power" : "100 W",
+      "greenPoints" : 1
+    }, {
+      "startTimeSlot" : 3,
+      "endTimeSlot" : 4,
+      "workingMode" : "W2D2",
+      "power" : "250 W",
+      "greenPoints" : 1
+    }, {
+      "startTimeSlot" : 8,
+      "endTimeSlot" : 8,
+      "workingMode" : "W2D1",
+      "power" : "150 W",
+      "greenPoints" : 2
+    } ]
+  }, {
+    "name" : "Activity2",
+    "works" : [ {
+      "startTimeSlot" : 1,
+      "endTimeSlot" : 6,
+      "workingMode" : "WeeklyLongRun",
+      "power" : "80 W",
+      "greenPoints" : 1
+    } ]
+  }, {
+    "name" : "Activity3",
+    "works" : [ {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 2,
+      "workingMode" : "W3D1",
+      "power" : "180 W",
+      "greenPoints" : 2
+    } ]
+  } ]
+}]

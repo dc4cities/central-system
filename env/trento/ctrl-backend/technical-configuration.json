@@ -1,0 +1,36 @@
+{
+	"hdbUrl": "hackmeplz",
+	"hdbEnabled": true,
+	"processConfigList": [{
+		"dataCenterId": "apss",
+		"dataCenterAssetCode": "cn_trento",
+		"dataCenterCompanyCode": "dc4c",
+		"timeSlotWidth": 15,
+		"timeWindowWidth": 24,
+		"executionSchedule": 15,
+		"timeCompressionFactor": 1,
+		"processClass": "org.dc4cities.tech.MyClass",
+		"minPower": 900,
+		"maxSuboptimalPower": 3000,
+		"pue": 1.5,
+		"erdsRegistryItems": [{
+			"id": "grid",
+			"name": "apss_grid",
+			"urlEndpoint": "http://localhost:8080/dc4es-service",
+			"type": "grid",
+			"assetName": "asset_apss_grid",
+			"status": true
+		}],
+		"eascRegistryItems": [{
+			"id": "EASC-Trento",
+			"name": "EASC-Trento",
+			"itServiceName": "iaas_cloud",
+			"type": "iaas",
+			"urlEndpoint": "http://localhost:9999",
+			"assetName": "asset_iaas_apss_cloud",
+			"status": true,
+			"weight": 1,
+			"greenPoints": 0
+		}]
+	}]
+}

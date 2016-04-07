@@ -1,0 +1,70 @@
+{
+  "powerLoopInterval": 60,
+  "controlLoopInterval": 15,
+  "monitoringLoopInterval": 5,
+  "timeSlotWidth": 15,
+  "timeWindowWidth": 24,
+  "consolidationTimeout": 2,
+  "consolidationHeuristic": "ipp",
+  "hdbUrl": "http://myhdb.example.com:8484",
+  "hdbEnabled": true,
+  "companyCode": "mycompany",
+  "dataCenters": [ {
+    "name": "dc1",
+    "minPower": "1000",
+    "maxPower": "2000",
+    "pue": 1.5,
+    "erdsList": [ {
+      "name": "grid1",
+      "endpoint": "http://grid.myenergyprovider1.com"
+    }, {
+      "name": "pv1",
+      "endpoint": "http://pv.myenergyprovider1.com"
+    } ],
+    "eascGroups": [ {
+      "name": "group1",
+      "groupWeight": 1,
+      "eascWeights": [ {
+        "eascName": "easc1",
+        "weight": 1
+      } ]
+    }, {
+      "name": "group2",
+      "groupWeight": 2,
+      "eascWeights": [ {
+        "eascName": "easc2",
+        "weight": 3
+      }, {
+        "eascName": "easc3",
+        "weight": 2
+      } ]
+    } ]
+  }, {
+    "name": "dc2",
+    "minPower": "500",
+    "maxPower": "1000",
+    "pue": 1.2,
+    "erdsList": [ {
+      "name": "grid2",
+      "endpoint": "http://grid.myenergyprovider2.com"
+    } ],
+    "eascGroups": [ {
+      "name": "group1",
+      "groupWeight": 1,
+      "eascWeights": [ {
+        "eascName": "easc1",
+        "weight": 1
+      } ]
+    } ]
+  } ],
+  "eascList": [ {
+    "name": "easc1",
+    "endpoint": "http://easc1.mycompany.com"
+  }, {
+    "name": "easc2",
+    "endpoint": "http://easc2.mycompany.com"
+  }, {
+    "name": "easc3",
+    "endpoint": "http://easc3.mycompany.com"
+  } ]
+}

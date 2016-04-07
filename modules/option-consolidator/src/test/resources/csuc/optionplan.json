@@ -1,0 +1,205 @@
+{
+  "eascName": "EASC-CSUC",
+  "dateFrom": "2015-02-01T00:00:00",
+  "dateTo": "2015-02-02T00:00:00",
+  "timeSlotDuration": "15 min",
+  "activityOptions": [
+    {
+      "activity": "VideoTranscoding",
+      "idlePower": "0 W",
+      "optionPlans": [
+        {
+          "name": "Proportional",
+          "workOptions": [
+            {
+              "startTimeSlot": 1,
+              "endTimeSlot": 17,
+              "modeOptions": [
+                {
+                  "workingMode": "VT2",
+                  "power": "225 W",
+                  "greenPoints": 3
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 18,
+              "endTimeSlot": 28,
+              "modeOptions": [
+                {
+                  "workingMode": "VT1",
+                  "power": "193 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 29,
+              "endTimeSlot": 48,
+              "modeOptions": [
+                {
+                  "workingMode": "VT2",
+                  "power": "225 W",
+                  "greenPoints": 3
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 49,
+              "endTimeSlot": 53,
+              "modeOptions": [
+                {
+                  "workingMode": "VT3",
+                  "power": "247 W",
+                  "greenPoints": 2
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 54,
+              "endTimeSlot": 95,
+              "modeOptions": [
+                {
+                  "workingMode": "VT2",
+                  "power": "225 W",
+                  "greenPoints": 3
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 96,
+              "endTimeSlot": 96,
+              "modeOptions": [
+                {
+                  "workingMode": "VT1",
+                  "power": "193 W",
+                  "greenPoints": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Eager",
+          "workOptions": [
+            {
+              "startTimeSlot": 1,
+              "endTimeSlot": 17,
+              "modeOptions": [
+                {
+                  "workingMode": "VT4",
+                  "power": "268 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 18,
+              "endTimeSlot": 28,
+              "modeOptions": [
+                {
+                  "workingMode": "VT2",
+                  "power": "225 W",
+                  "greenPoints": 3
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 29,
+              "endTimeSlot": 39,
+              "modeOptions": [
+                {
+                  "workingMode": "VT4",
+                  "power": "268 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 40,
+              "endTimeSlot": 44,
+              "modeOptions": [
+                {
+                  "workingMode": "VT5",
+                  "power": "468 W",
+                  "greenPoints": 0
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 45,
+              "endTimeSlot": 45,
+              "modeOptions": [
+                {
+                  "workingMode": "VT3",
+                  "power": "247 W",
+                  "greenPoints": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aggressive",
+          "workOptions": [
+            {
+              "startTimeSlot": 1,
+              "endTimeSlot": 1,
+              "modeOptions": [
+                {
+                  "workingMode": "VT4",
+                  "power": "268 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 39,
+              "endTimeSlot": 39,
+              "modeOptions": [
+                {
+                  "workingMode": "VT4",
+                  "power": "268 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 40,
+              "endTimeSlot": 65,
+              "modeOptions": [
+                {
+                  "workingMode": "VT5",
+                  "power": "468 W",
+                  "greenPoints": 0
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 66,
+              "endTimeSlot": 72,
+              "modeOptions": [
+                {
+                  "workingMode": "VT4",
+                  "power": "268 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 73,
+              "endTimeSlot": 73,
+              "modeOptions": [
+                {
+                  "workingMode": "VT3",
+                  "power": "247 W",
+                  "greenPoints": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

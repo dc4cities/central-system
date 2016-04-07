@@ -1,0 +1,8 @@
+[ {
+  "name": "group1",
+  "groupWeight": 1,
+  "eascWeights": [ {
+    "eascName": "easc1",
+    "weight": 1
+  } ]
+} ]

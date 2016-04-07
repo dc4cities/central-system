@@ -1,0 +1,100 @@
+[ {
+  "eascName": "easc1",
+  "dateFrom": "2015-07-08T08:00:00",
+  "dateTo": "2015-07-10T00:00:00",
+  "timeSlotDuration": "8 h",
+  "dataCenterQuotas": [ {
+    "dataCenterName": "dc1",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 2,
+      "energy" : "4800 Wh"
+    }, {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 5,
+      "energy" : "5736 Wh"
+    } ],
+    "powerQuotas": [ {
+      "timeSlot": 0,
+      "power": "333 W"
+    }, {
+      "timeSlot": 1,
+      "power": "267 W"
+    }, {
+      "timeSlot": 2,
+      "power": "167 W"
+    }, {
+      "timeSlot": 3,
+      "power": "250 W"
+    }, {
+      "timeSlot": 4,
+      "power": "300 W"
+    } ]
+  } ]
+}, {
+  "eascName": "easc2",
+  "dateFrom": "2015-07-08T08:00:00",
+  "dateTo": "2015-07-10T00:00:00",
+  "timeSlotDuration": "8 h",
+  "dataCenterQuotas": [ {
+    "dataCenterName": "dc1",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 2,
+      "energy" : "5760 Wh"
+    }, {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 5,
+      "energy" : "6878 Wh"
+    } ],
+    "powerQuotas": [ {
+      "timeSlot": 0,
+      "power": "667 W"
+    }, {
+      "timeSlot": 1,
+      "power": "533 W"
+    }, {
+      "timeSlot": 2,
+      "power": "333 W"
+    }, {
+      "timeSlot": 3,
+      "power": "500 W"
+    }, {
+      "timeSlot": 4,
+      "power": "600 W"
+    } ]
+  } ]
+}, {
+  "eascName": "easc3",
+  "dateFrom": "2015-07-08T08:00:00",
+  "dateTo": "2015-07-10T00:00:00",
+  "timeSlotDuration": "8 h",
+  "dataCenterQuotas": [ {
+    "dataCenterName": "dc1",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 2,
+      "energy" : "3840 Wh"
+    }, {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 5,
+      "energy" : "4586 Wh"
+    } ],
+    "powerQuotas": [ {
+      "timeSlot": 0,
+      "power": "667 W"
+    }, {
+      "timeSlot": 1,
+      "power": "533 W"
+    }, {
+      "timeSlot": 2,
+      "power": "333 W"
+    }, {
+      "timeSlot": 3,
+      "power": "500 W"
+    }, {
+      "timeSlot": 4,
+      "power": "600 W"
+    } ]
+  } ]
+} ]

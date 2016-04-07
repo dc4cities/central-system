@@ -1,0 +1,73 @@
+[ {
+  "dataCenterName": "dc1",
+  "dateFrom": "2015-07-15T00:00:00",
+  "dateTo": "2015-07-15T00:30:00",
+  "timeSlotDuration": "15 min",
+  "erdsForecasts": [ {
+    "erdsName": "grid1",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T00:30:00",
+    "timeSlotDuration": "15 min",
+    "timeSlotForecasts": [ {
+      "timeSlot": 0,
+      "power": "1800 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 1,
+      "power": "2800 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "210 kg/kWh",
+      "primaryEnergyFactor" : 0.7,
+      "consumptionPrice" : "0.2 EUR/kWh"
+    } ]
+  }, {
+    "erdsName": "wind1",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T00:30:00",
+    "timeSlotDuration": "15 min",
+    "timeSlotForecasts": [ {
+      "timeSlot": 0,
+      "power": "100 W",
+      "renewablePercentage": "100 %",
+      "co2Factor": "0 kg/kWh",
+      "primaryEnergyFactor" : 1,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 1,
+      "power": "200 W",
+      "renewablePercentage": "100 %",
+      "co2Factor": "0 kg/kWh",
+      "primaryEnergyFactor" : 1,
+      "consumptionPrice" : "0.2 EUR/kWh"
+    } ]
+  } ]
+}, {
+  "dataCenterName": "dc2",
+  "dateFrom": "2015-07-15T00:00:00",
+  "dateTo": "2015-07-15T00:30:00",
+  "timeSlotDuration": "15 min",
+  "erdsForecasts": [ {
+    "erdsName": "grid2",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T00:30:00",
+    "timeSlotDuration": "15 min",
+    "timeSlotForecasts": [ {
+      "timeSlot": 0,
+      "power": "1000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 1,
+      "power": "2700 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "210 kg/kWh",
+      "primaryEnergyFactor" : 0.7,
+      "consumptionPrice" : "0.2 EUR/kWh"
+    } ]
+  } ]
+} ]

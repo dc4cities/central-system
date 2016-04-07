@@ -1,0 +1,47 @@
+[ {
+  "eascName" : "easc1",
+  "dateFrom" : "2015-07-15T00:15:00",
+  "dateTo" : "2015-07-15T01:00:00",
+  "timeSlotDuration" : "15 min",
+  "dataCenterQuotas" : [ {
+    "dataCenterName" : "dc1",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 3,
+      "energy" : "600 Wh"
+    } ],
+    "powerQuotas" : [ {
+      "timeSlot" : 0,
+      "power" : "1333 W"
+    }, {
+      "timeSlot" : 1,
+      "power" : "1333 W"
+    }, {
+      "timeSlot" : 2,
+      "power" : "1333 W"
+    } ]
+  } ]
+}, {
+  "eascName" : "easc2",
+  "dateFrom" : "2015-07-15T00:15:00",
+  "dateTo" : "2015-07-15T01:00:00",
+  "timeSlotDuration" : "15 min",
+  "dataCenterQuotas" : [ {
+    "dataCenterName" : "dc1",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 3,
+      "energy" : "399 Wh"
+    } ],
+    "powerQuotas" : [ {
+      "timeSlot" : 0,
+      "power" : "1333 W"
+    }, {
+      "timeSlot" : 1,
+      "power" : "1333 W"
+    }, {
+      "timeSlot" : 2,
+      "power" : "1333 W"
+    } ]
+  } ]
+} ]

@@ -1,0 +1,24 @@
+[ {
+	"eascName": "easc1",
+	"activitySpecifications": [{
+		"activityName": "Activity 1",
+		"dataCenters": [{
+		  "dataCenterName": "dc1"
+		}, {
+		  "dataCenterName": "dc2"
+		}]
+	}]
+}, {
+	"eascName": "easc2",
+	"activitySpecifications": [{
+		"activityName": "Activity 2",
+		"dataCenters": [{
+		  "dataCenterName": "dc1"
+		}]
+	}, {
+		"activityName": "Activity 3",
+		"dataCenters": [{
+		  "dataCenterName": "dc1"
+		}]
+	}]
+} ]

@@ -1,0 +1,40 @@
+{
+  "eascName" : "easc1",
+  "dateFrom" : "2015-05-10T00:00:00",
+  "dateTo" : "2015-05-10T00:45:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "Activity 1",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "WM3SF",
+        "workingModeValue" : 6,
+        "power" : "550 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 3,
+        "workingModeName" : "WM1SF",
+        "workingModeValue" : 1,
+        "power" : "150 W"
+      } ]
+    }, {
+      "dataCenterName" : "dc2",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 2,
+        "workingModeName" : "WM1SF",
+        "workingModeValue" : 1,
+        "power" : "150 W"
+      }, {
+        "startTimeSlot" : 2,
+        "endTimeSlot" : 3,
+        "workingModeName" : "WM0",
+        "workingModeValue" : 0,
+        "power" : "0 W"
+      } ]
+    } ]
+  } ]
+}

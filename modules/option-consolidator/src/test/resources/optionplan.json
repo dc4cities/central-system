@@ -1,0 +1,82 @@
+{
+    "eascName": "easc1",
+    "dateFrom": "2014-07-02T10:00:00",
+    "dateTo": "2014-07-02T12:00:00",
+    "timeSlotDuration": "15 min",
+    "activityOptions": [
+        {
+            "activity": "Easc1App1",
+            "optionPlans": [
+                {
+                    "name": "app1plan1",
+                    "workOptions": [
+                        {
+                            "startTimeSlot": 1,
+                            "endTimeSlot": 2,
+                            "modeOptions": [
+                                {
+                                    "workingMode": "W1D1",
+                                    "power": "100 W",
+                                    "greenPoints": 1
+                                }
+                            ]
+                        },
+                        {
+                            "startTimeSlot": 3,
+                            "endTimeSlot": 8,
+                            "modeOptions": [
+                                {
+                                    "workingMode": "W3D2",
+                                    "power": "250 W",
+                                    "greenPoints": 0
+                                },
+                                {
+                                    "workingMode": "W2D1",
+                                    "power": "150 W",
+                                    "greenPoints": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "app1plan2",
+                    "workOptions": [
+                        {
+                            "startTimeSlot": 1,
+                            "endTimeSlot": 4,
+                            "modeOptions": [
+                                {
+                                    "workingMode": "W4D4",
+                                    "power": "500 W",
+                                    "greenPoints": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "activity": "Easc1App2",
+            "optionPlans": [
+                {
+                    "name": "app2plan1",
+                    "workOptions": [
+                        {
+                            "startTimeSlot": 2,
+                            "endTimeSlot": 6,
+                            "modeOptions": [
+                                {
+                                    "workingMode": "WeeklyLongRun",
+                                    "power": "80 W",
+                                    "greenPoints": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

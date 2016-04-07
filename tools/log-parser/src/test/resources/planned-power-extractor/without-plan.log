@@ -1,0 +1,29 @@
+2014-11-07 10:47:43,344 INFO  [ContextLoader] Root WebApplicationContext: initialization started
+2014-11-07 10:47:43,515 INFO  [AnnotationConfigWebApplicationContext] Refreshing Root WebApplicationContext: startup date [Fri Nov 07 10:47:43 CET 2014]; root of context hierarchy
+2014-11-07 10:47:43,687 INFO  [AnnotationConfigWebApplicationContext] Successfully resolved class for [eu.dc4cities.controlsystem.backend.BackEndConfig]
+2014-11-07 10:47:46,232 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12e0f48b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,backEndConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,mvcContentNegotiationManager,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,defaultServletHandlerMapping,requestMappingHandlerAdapter,mvcConversionService,mvcValidator,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,requestMappingHandlerMapping,handlerExceptionResolver,eu.dc4cities.controlsystem.backend.WebMvcConfig,jacksonMessageConverter,welcomeController,dataCenterController,configurationJsonLoader,erdsHandler,configurationRepository,configurationController,powerPlanner,optimizationManager,optimizationProcess,powerSplitter,eascHandler,optionConsolidator,restTemplate,taskScheduler]; root of factory hierarchy
+2014-11-07 10:47:49,312 INFO  [RequestMappingHandlerMapping] Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public java.lang.String eu.dc4cities.controlsystem.backend.WelcomeController.getWelcomePage()
+2014-11-07 10:47:49,340 INFO  [RequestMappingHandlerMapping] Mapped "{[/v1/datacenters/{dataCenterName}/powerplan],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public eu.dc4cities.controlsystem.model.PowerPlan eu.dc4cities.controlsystem.modules.processcontroller.rest.DataCenterController.getPowerPlan(java.lang.String)
+2014-11-07 10:47:49,341 INFO  [RequestMappingHandlerMapping] Mapped "{[/v1/datacenters/{dataCenterName}/powerplan],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> eu.dc4cities.controlsystem.modules.processcontroller.rest.DataCenterController.calculatePowerPlan(java.lang.String,eu.dc4cities.controlsystem.model.TimeSlotBasedEntity)
+2014-11-07 10:47:49,617 DEBUG [LocalResourceConfigurationRepository] TechnicalConfiguration not initialized yet, initializing ...
+2014-11-07 10:47:49,764 DEBUG [JsonLoader] eu.dc4cities.configuration.technical.TechnicalConfiguration initialized successfully
+2014-11-07 10:47:49,778 DEBUG [LocalResourceConfigurationRepository] TechnicalConfiguration initialized: eu.dc4cities.configuration.technical.TechnicalConfiguration@65597022[
+  hdbHost=hackmeplz
+  hdbPort=8484
+  hdbEnabled=true
+  processConfigList=[eu.dc4cities.configuration.technical.ProcessConfig@350967a6]
+] from file:/home/dc4cities/apache-tomcat-7.0.55/conf/ctrl-backend/technical-configuration.json
+2014-11-07 10:47:49,804 INFO  [ThreadPoolTaskScheduler] Initializing ExecutorService  'taskScheduler'
+2014-11-07 10:47:50,013 INFO  [ContextLoader] Root WebApplicationContext: initialization completed in 6668 ms
+2014-11-07 10:47:50,086 INFO  [DispatcherServlet] FrameworkServlet 'springDispatcher': initialization started
+2014-11-07 10:47:50,090 INFO  [XmlWebApplicationContext] Refreshing WebApplicationContext for namespace 'springDispatcher-servlet': startup date [Fri Nov 07 10:47:50 CET 2014]; parent: Root WebApplicationContext
+2014-11-07 10:47:50,115 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2c516791: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@12e0f48b
+2014-11-07 10:47:50,144 INFO  [DispatcherServlet] FrameworkServlet 'springDispatcher': initialization completed in 58 ms
+2014-11-07 10:47:59,941 DEBUG [LocalResourceConfigurationRepository] GoalConfiguration not initialized yet, initializing ...
+2014-11-07 10:47:59,984 DEBUG [JsonLoader] eu.dc4cities.configuration.goal.GoalConfiguration initialized successfully
+2014-11-07 10:47:59,984 DEBUG [LocalResourceConfigurationRepository] GoalConfiguration initialized: eu.dc4cities.configuration.goal.GoalConfiguration@2e3e4d73[
+  id=myConf
+  creationDate=<null>
+  lastModified=<null>
+  goals=[eu.dc4cities.configuration.goal.Goal@7c4ed0bc]
+] from file:/home/dc4cities/apache-tomcat-7.0.55/conf/ctrl-backend/goal-configuration.json

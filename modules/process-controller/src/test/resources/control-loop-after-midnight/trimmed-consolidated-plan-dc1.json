@@ -1,0 +1,15 @@
+{
+  "dateFrom" : "2015-07-15T00:15:00",
+  "dateTo" : "2015-07-15T01:00:00",
+  "timeSlotDuration" : "15 min",
+  "powerQuotas" : [ {
+    "timeSlot" : 0,
+    "power" : "1305 W"
+  }, {
+    "timeSlot" : 1,
+    "power" : "1253 W"
+  }, {
+    "timeSlot" : 2,
+    "power" : "1013 W"
+  } ]
+}

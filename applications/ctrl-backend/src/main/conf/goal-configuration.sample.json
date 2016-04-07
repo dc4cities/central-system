@@ -1,0 +1,26 @@
+{
+	"id": "myConf",
+	"goals": [{
+		"id": "greenGoal",
+		"name": "greenGoal",
+		"description": "Use 80% green energy",
+		"objectives": [{
+			"id": "greenObjective",
+			"name": "greenObjective",
+			"description": "Use 80% green energy",
+			"type": "ENERGY_PROPERTY",
+			"implementationType": "MUST",
+			"enabled": true,
+			"dataCenterId": "mydc",
+			"priority": 0,
+			"target": {
+				"metric": "renewablePercentage",
+				"operator": "gt",
+				"value": 80
+			},
+			"timeFrame": {
+				"startDate": 0
+			}
+		}]
+	}]
+}

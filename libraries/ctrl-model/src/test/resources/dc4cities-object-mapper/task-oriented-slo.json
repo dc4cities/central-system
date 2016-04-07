@@ -1,0 +1,13 @@
+{
+  "dateFrom" : "2015-05-10T00:00:00",
+  "dateTo" : "2015-05-11T00:00:00",
+  "cumulativeBusinessObjective" : "830 Gbit",
+  "basePrice" : "500 EUR",
+  "priceModifiers" : [ {
+    "threshold" : "800 Gbit",
+    "modifier" : "-1 EUR/Gbit"
+  }, {
+    "threshold" : "620 Gbit",
+    "modifier" : "-2 EUR/Gbit"
+  } ]
+}

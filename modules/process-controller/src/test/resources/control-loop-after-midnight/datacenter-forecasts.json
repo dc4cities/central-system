@@ -1,0 +1,81 @@
+[ {
+  "dataCenterName": "dc1",
+  "dateFrom": "2015-07-15T00:00:00",
+  "dateTo": "2015-07-15T01:00:00",
+  "timeSlotDuration": "15 min",
+  "erdsForecasts": [ {
+    "erdsName": "grid1",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T01:00:00",
+    "timeSlotDuration": "15 min",
+    "timeSlotForecasts": [ {
+      "timeSlot": 0,
+      "power": "1800 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 1,
+      "power": "2000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 2,
+      "power": "3000 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "210 kg/kWh",
+      "primaryEnergyFactor" : 0.7,
+      "consumptionPrice" : "0.2 EUR/kWh"
+    }, {
+      "timeSlot": 3,
+      "power": "3500 W",
+      "renewablePercentage": "42 %",
+      "co2Factor": "300 kg/kWh",
+      "primaryEnergyFactor" : 0.75,
+      "consumptionPrice" : "0.3 EUR/kWh"
+    } ]
+  } ]
+}, {
+  "dataCenterName": "dc2",
+  "dateFrom": "2015-07-15T00:00:00",
+  "dateTo": "2015-07-15T01:00:00",
+  "timeSlotDuration": "15 min",
+  "erdsForecasts": [ {
+    "erdsName": "grid2",
+    "dateFrom": "2015-07-15T00:00:00",
+    "dateTo": "2015-07-15T01:00:00",
+    "timeSlotDuration": "15 min",
+    "timeSlotForecasts": [ {
+      "timeSlot": 0,
+      "power": "2000 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 1,
+      "power": "2500 W",
+      "renewablePercentage": "35 %",
+      "co2Factor": "200 kg/kWh",
+      "primaryEnergyFactor" : 0.9,
+      "consumptionPrice" : "0.1 EUR/kWh"
+    }, {
+      "timeSlot": 2,
+      "power": "2700 W",
+      "renewablePercentage": "40 %",
+      "co2Factor": "210 kg/kWh",
+      "primaryEnergyFactor" : 0.7,
+      "consumptionPrice" : "0.2 EUR/kWh"
+    }, {
+      "timeSlot": 3,
+      "power": "3000 W",
+      "renewablePercentage": "45 %",
+      "co2Factor": "250 kg/kWh",
+      "primaryEnergyFactor" : 0.8,
+      "consumptionPrice" : "0.4 EUR/kWh"
+    } ]
+  } ]
+} ]

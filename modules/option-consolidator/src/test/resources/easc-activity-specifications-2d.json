@@ -1,0 +1,110 @@
+{
+  "eascName": "easc1",
+  "activitySpecifications": [
+    {
+      "activityName": "Activity 1",
+      "relocability": "no",
+      "migrationPerformanceCost": "10 Gbit",
+      "dataCenters": [
+        {
+          "dataCenterName": "dc1",
+          "defaultWorkingMode": "WM0",
+          "workingModes": [
+            {
+              "name": "WM0",
+              "value": 0,
+              "performanceLevels": [
+                {
+                  "businessPerformance": "0 Gbit/min",
+                  "power": "100 W"
+                }
+              ],
+              "transitions": [
+                {
+                  "target": "WM1",
+                  "performanceCost": "0.2 Gbit"
+                },
+                {
+                  "target": "WM2",
+                  "performanceCost": "0.5 Gbit"
+                }
+              ]
+            },
+            {
+              "name": "WM1",
+              "value": 1,
+              "performanceLevels": [
+                {
+                  "businessPerformance": "0.25 Gbit/min",
+                  "power": "500 W"
+                },
+                {
+                  "businessPerformance": "0.5 Gbit/min",
+                  "power": "665 W"
+                }
+              ],
+              "transitions": [
+                {
+                  "target": "WM2",
+                  "performanceCost": "0.5 Gbit"
+                }
+              ]
+            },
+            {
+              "name": "WM2",
+              "value": 2,
+              "performanceLevels": [
+                {
+                  "businessPerformance": "1 Gbit/min",
+                  "power": "685 W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataCenterName": "dc2",
+          "defaultWorkingMode": "WM1",
+          "workingModes": [
+            {
+              "name": "WM1",
+              "value": 1,
+              "performanceLevels": [
+                {
+                  "businessPerformance": "0.1 Gbit/min",
+                  "power": "200 W"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serviceLevelObjectives": [
+        {
+          "dateFrom": "2015-05-10T00:00:00",
+          "dateTo": "2015-05-11T00:00:00",
+          "cumulativeBusinessObjective": "750 Gbit / s",
+          "basePrice": "500 EUR",
+          "priceModifiers": [
+            {
+              "threshold": "300 Gbit / s",
+              "modifier": "-1 EUR/Gbit"
+            }
+          ]
+        },
+        {
+          "dateFrom": "2015-05-11T00:00:00",
+          "dateTo": "2015-05-12T00:00:00",
+          "cumulativeBusinessObjective": "750 Gbit / s",
+          "basePrice": "500 EUR",
+          "priceModifiers": [
+            {
+              "threshold": "300 Gbit / s",
+              "modifier": "-1 EUR/Gbit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dataCenterName": "dc2",
+  "dateFrom": "2015-07-15T00:00:00",
+  "dateTo": "2015-07-25T00:30:00",
+  "timeSlotDuration": "15 min",
+  "erdsForecasts": [
+    {
+      "erdsName": "grid2",
+      "dateFrom": "2015-07-15T00:00:00",
+      "dateTo": "2015-07-15T00:30:00",
+      "timeSlotDuration": "15 min",
+      "timeSlotForecasts": [
+        {
+          "timeSlot": 0,
+          "power": "2500 W",
+          "renewablePercentage": "35 %",
+          "co2Factor": "200 kg/kWh",
+          "primaryEnergyFactor": 0.9,
+          "consumptionPrice": "0.1 EUR/kWh"
+        },
+        {
+          "timeSlot": 1,
+          "power": "2700 W",
+          "renewablePercentage": "40 %",
+          "co2Factor": "210 kg/kWh",
+          "primaryEnergyFactor": 0.7,
+          "consumptionPrice": "0.2 EUR/kWh"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "eascName" : "easc1",
+  "dateFrom" : "2015-05-10T00:00:00",
+  "dateTo" : "2015-05-10T00:45:00",
+  "timeSlotDuration" : "15 min",
+  "dataCenterQuotas" : [ {
+    "dataCenterName" : "dc1",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 2,
+      "energy" : "300 Wh"
+    }, {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 3,
+      "energy" : "50 Wh"
+    } ],
+    "powerQuotas" : [ {
+      "timeSlot" : 0,
+      "power" : "600 W"
+    }, {
+      "timeSlot" : 1,
+      "power" : "600 W"
+    }, {
+      "timeSlot" : 2,
+      "power" : "200 W"
+    } ]
+  }, {
+    "dataCenterName" : "dc2",
+    "energyQuotas" : [ {
+      "startTimeSlot" : 0,
+      "endTimeSlot" : 3,
+      "energy" : "275 Wh"
+    } ],
+    "powerQuotas" : [ {
+      "timeSlot" : 0,
+      "power" : "200 W"
+    }, {
+      "timeSlot" : 1,
+      "power" : "600 W"
+    }, {
+      "timeSlot" : 2,
+      "power" : "600 W"
+    } ]
+  } ]
+}

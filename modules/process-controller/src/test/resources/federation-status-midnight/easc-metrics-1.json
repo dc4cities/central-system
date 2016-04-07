@@ -1,0 +1,14 @@
+[ {
+  "eascName" : "easc1",
+  "activities" : [ {
+    "name" : "activity1",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "workingModeName" : "WM1",
+      "workingModeValue" : 1,
+      "instantBusinessPerformance" : "1 Gbit/min",
+      "cumulativeBusinessPerformance" : "15 Gbit",
+      "power" : "470 W"
+    } ]
+  } ]
+} ]

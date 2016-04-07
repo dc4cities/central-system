@@ -1,0 +1,63 @@
+{
+  "eascName": "EASC-CSUC",
+  "dateFrom": "2015-02-02T00:00:00",
+  "dateTo": "2015-02-03T00:00:00",
+  "timeSlotDuration": "15 min",
+  "activityOptions": [
+    {
+      "activity": "VideoTranscoding",
+      "idlePower": "0 W",
+      "optionPlans": [
+        {
+          "name": "Proportional",
+          "workOptions": [
+            {
+              "startTimeSlot": 1,
+              "endTimeSlot": 1,
+              "modeOptions": [
+                {
+                  "workingMode": "VT2",
+                  "power": "225 W",
+                  "greenPoints": 3
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 2,
+              "endTimeSlot": 26,
+              "modeOptions": [
+                {
+                  "workingMode": "VT1",
+                  "power": "193 W",
+                  "greenPoints": 1
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 27,
+              "endTimeSlot": 88,
+              "modeOptions": [
+                {
+                  "workingMode": "VT2",
+                  "power": "225 W",
+                  "greenPoints": 3
+                }
+              ]
+            },
+            {
+              "startTimeSlot": 89,
+              "endTimeSlot": 96,
+              "modeOptions": [
+                {
+                  "workingMode": "VT3",
+                  "power": "247 W",
+                  "greenPoints": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

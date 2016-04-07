@@ -1,0 +1,12 @@
+[ {
+  "eascName" : "easc1",
+  "activityServiceLevels" : [ {
+    "activityName" : "activity1",
+    "serviceLevels" : [ {
+      "dateFrom" : "2015-09-02T00:00:00",
+      "dateTo" : "2015-09-02T00:15:00",
+      "instantBusinessPerformance" : "2 Gbit/min",
+      "cumulativeBusinessPerformance" : "30 Gbit"
+    } ]
+  } ]
+} ]

@@ -1,0 +1,96 @@
+{
+  "eascName": "easc1",
+  "dateFrom": "2014-03-05T10:00:00",
+  "dateTo": "2014-03-06T10:00:00",
+  "timeSlotDuration": "15 min",
+  "activityOptions": [
+    {
+      "activity": "MyApp",
+      "optionPlans": [
+        {
+		  "workOptions": [
+		    {
+			  "startTimeSlot": 1,
+			  "endTimeSlot": 24,
+			  "modeOptions": [
+			    {
+				  "workingMode": "W1D1",
+				  "power": "20 W",
+				  "greenPoints": 1
+				}
+			  ]
+			},
+			{
+			  "startTimeSlot": 25,
+			  "endTimeSlot": 40,
+			  "modeOptions": [
+			    {
+				  "workingMode": "W3D2",
+				  "power": "40 W",
+				  "greenPoints": 0
+				},
+				{
+				  "workingMode": "W2D1",
+				  "power": "30 W",
+				  "greenPoints": 2
+				}
+			  ]
+			}
+		  ]
+		},
+		{
+		  "workOptions": [
+		    {
+			  "startTimeSlot": 1,
+			  "endTimeSlot": 40,
+			  "modeOptions": [
+			    {
+				  "workingMode": "W3D2",
+				  "power": "40 W",
+				  "greenPoints": 0
+				}
+			  ]
+			}
+		  ]
+		}
+      ]
+    },
+    {
+      "activity": "MyTask",
+      "optionPlans": [
+        {
+          "name": "optionplan1",
+		  "workOptions": [
+		    {
+			  "startTimeSlot": 1,
+			  "endTimeSlot": 24,
+			  "modeOptions": [
+			    {
+				  "workingMode": "WeeklyLongRun",
+				  "power": "80 W",
+				  "greenPoints": 1
+				}
+			  ]
+			}
+		  ]
+		},
+		{
+		  "name": "optionplan2",
+		  "workOptions": [
+		    {
+			  "startTimeSlot": 9,
+			  "endTimeSlot": 32,
+			  "modeOptions": [
+			    {
+				  "workingMode": "WeeklyLongRun",
+				  "power": "80 W",
+				  "greenPoints": 1
+				}
+			  ]
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

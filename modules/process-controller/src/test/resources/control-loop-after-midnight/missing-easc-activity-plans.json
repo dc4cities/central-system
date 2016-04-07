@@ -1,0 +1,76 @@
+[ {
+  "eascName" : "easc1",
+  "dateFrom" : "2015-07-15T00:30:00",
+  "dateTo" : "2015-07-15T01:00:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "Activity 1",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "A1D1WM3",
+        "workingModeValue" : 1,
+        "power" : "550 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 2,
+        "workingModeName" : "A1D1WM1",
+        "workingModeValue" : 1,
+        "power" : "150 W"
+      } ]
+    }, {
+      "dataCenterName" : "dc2",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "A1D2WM0",
+        "workingModeValue" : 0,
+        "power" : "20 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 2,
+        "workingModeName" : "A1D2WM1",
+        "workingModeValue" : 1,
+        "power" : "500 W"
+      } ]
+    } ]
+  } ]
+}, {
+  "eascName" : "easc2",
+  "dateFrom" : "2015-07-15T00:30:00",
+  "dateTo" : "2015-07-15T01:00:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "Activity 2",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 2,
+        "workingModeName" : "A2D1WM2",
+        "workingModeValue" : 2,
+        "power" : "275 W"
+      } ]
+    } ]
+  }, {
+    "name" : "Activity 3",
+    "dataCenters" : [ {
+      "dataCenterName" : "dc1",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "A3D1WM0",
+        "workingModeValue" : 0,
+        "power" : "10 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 2,
+        "workingModeName" : "A3D1WM1",
+        "workingModeValue" : 1,
+        "power" : "250 W"
+      } ]
+    } ]
+  } ]
+} ]

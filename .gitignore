@@ -1,0 +1,14 @@
+#Maven stuff
+target
+
+#Intellj 
+*.iml
+*.idea
+
+#Eclipse
+*.settings
+*.classpath
+*.project
+
+#Distribution
+dc4c*.tar.gz

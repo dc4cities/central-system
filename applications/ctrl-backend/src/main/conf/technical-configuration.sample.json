@@ -1,0 +1,56 @@
+{
+	"hdbHost": "myhdb.example.com",
+	"hdbPort": 8484,
+	"hdbEnabled": true,
+	"processConfigList": [{
+		"dataCenterId": "mydc",
+		"dataCenterAssetCode": "mydc-asset",
+        "dataCenterCompanyCode": "mydc-company",
+		"timeSlotWidth": 15,
+		"timeWindowWidth": 24,
+		"executionSchedule": 15,
+		"timeCompressionFactor": 1,
+		"processClass": "org.dc4cities.tech.MyClass",
+		"minPower": 1000,
+		"maxSuboptimalPower": 2000,
+		"pue": 1.5,
+		"erdsRegistryItems": [{
+			"id": "grid",
+			"name": "mygrid",
+			"urlEndpoint": "http://www.gridprovider.com/d4c-api",
+			"type": "grid",
+			"assetName": "asset_my_grid",
+			"status": true
+		},
+		{
+			"id": "solar",
+			"name": "mysolar",
+			"urlEndpoint": "http://localhost:8080/dc4es-service",
+			"type": "pv",
+			"assetName": "asset_my_solar",
+			"status": true
+		}],
+		"eascRegistryItems": [{
+			"id": "easc1",
+			"name": "easc1",
+			"itServiceName": "iaas_cloud",
+			"type": "iaas",
+			"urlEndpoint": "http://localhost:9999",
+			"assetName": "asset_iaas_cloud",
+			"status": true,
+			"weight": 1,
+			"greenPoints": 0
+		},
+		{
+			"id": "easc2",
+			"name": "easc2",
+			"itServiceName": "paas_cloud",
+			"type": "paas",
+			"urlEndpoint": "http://localhost:10000",
+			"assetName": "asset_paas_cloud",
+			"status": true,
+			"weight": 1,
+			"greenPoints": 0
+		}]
+	}]
+}

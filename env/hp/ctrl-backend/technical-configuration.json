@@ -1,0 +1,43 @@
+{
+	"hdbUrl": "hackmeplz",
+	"hdbEnabled": true,
+	"processConfigList": [{
+		"dataCenterId": "hp",
+		"dataCenterAssetCode": "hp_milan",
+		"dataCenterCompanyCode": "dc4c",
+		"timeSlotWidth": 15,
+		"timeWindowWidth": 24,
+		"executionSchedule": 0,
+		"timeCompressionFactor": 1,
+		"processClass": "org.dc4cities.tech.MyClass",
+		"minPower": 400,
+		"maxSuboptimalPower": 1000,
+		"pue": 1,
+		"erdsRegistryItems": [{
+			"id": "grid",
+			"name": "hp_grid",
+			"urlEndpoint": "http://localhost:8180/dc4es-service",
+			"type": "grid",
+			"assetName": "asset_hp_grid",
+			"status": true
+		},{
+                        "id": "pv",
+                        "name": "hp_pv",
+                        "urlEndpoint": "http://localhost:8280/dc4es-service",
+                        "type": "pv",
+                        "assetName": "asset_pv_grid",
+                        "status": true
+                }],
+		"eascRegistryItems": [{
+			"id": "hp-easc",
+			"name": "hp-easc",
+			"itServiceName": "iaas_cloud",
+			"type": "iaas",
+			"urlEndpoint": "http://localhost:9999",
+			"assetName": "asset_iaas_hp_cloud",
+			"status": true,
+			"weight": 1,
+			"greenPoints": 0
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+    "forecastDataPath": "/mnt/Dati/ENEA/Progetti/DC4Cities/meteo/Previsioni",
+    "actualDataPath": "/mnt/Dati/ENEA/Progetti/DC4Cities/meteo/Misure",
+  "loadedForecastFilePath": "output/processedForecast.txt",  
+  "loadedActualFilePath": "output/processedActual.txt",
+  "forecastReset": false,
+  "actualReset": false,
+  "addRecursive": true,
+  "hdbHost": "hackemeplease",
+  "hdbPort": 8888,
+  "assetType": "site",
+  "assetCode": "hp_milan",
+  "companyCode": "dc4c"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright 2016 The DC4Cities author.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MM_HH:mm:ss.SSS}|%p|%m|%C{1}|%X{leoSessionId}|%X{userId}%n" />
+		</layout>
+	</appender>
+
+    <appender name="default.file" class="org.apache.log4j.FileAppender">
+        <param name="file" value="logs/dc4cities/easc-sample.log"/>
+        <param name="append" value="true"/>
+        <param name="threshold" value="debug"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd-MM_HH:mm:ss.SSS}|%p|%m|%C{1}|%X{leoSessionId}|%X{userId}%n"/>
+        </layout>
+    </appender>
+
+	<logger name="com.fmc.samples" additivity="false">
+		<level value="DEBUG"/>
+		<appender-ref ref="CONSOLE"/>
+	</logger>
+
+    <logger name="org.springframework" additivity="false">
+        <level value="WARN"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+		
+	<root>
+		<level value="WARN"/>
+		<appender-ref ref="CONSOLE"/>
+	</root>
+
+</log4j:configuration>
+
